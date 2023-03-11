@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  color: #404146;
+}
+
+nav {
+  background-color: #404146;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+}
+
+h1 {
+  letter-spacing: 4px;
+}
+
+ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul a {
+  color: #fff;
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 1rem;
+  padding: 6px;
+  text-decoration: none;
+}
+
+/* css untuk styling section jumbotron */
+.container {
+  text-align: center;
+}
+
+.jumbotron {
+  /* padding: 0px; */
+  padding-top: 80px;
+}
+
+.content h2 {
+  display: inline;
+  font-size: 110px;
+  justify-content: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 18px;
+  aspect-ratio: 1;
+  background-color: #f1d00e;
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-radius: 100%;
+}
+
+.content h3 {
+  font-size: 30px;
+  margin-top: 12px;
+  text-align: center;
+  color: #808080;
+}
+
+.container .foto img {
+  height: 140px;
+  width: 140px;
+  padding-bottom: 60px;
+}
+
+/* css section about */
+.about {
+  background-color: #a8abad;
+  color: #fff;
+  height: 80px;
+  padding: 40px;
+  text-align: center;
+}
+
+.about h3 {
+  padding-bottom: 12px;
+  color: #000;
+}
+
+/* css untuk proyek contoh */
+.contents {
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-title {
+  border-bottom: 2px solid #c99f50;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+  margin-left: 30px;
+  padding-left: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contents-item img {
+  height: 300px;
+}
+
+/* css untuk contact */
+.contact-form {
+  text-align: center;
+  background-color: #d2d7db;
+}
+
+.contact-form h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.contact-form textarea {
+  color: rgb(117, 115, 115);
+}
+
+.email {
+  color: rgb(117, 115, 115);
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  color: rgba(229, 226, 226, 0.774);
+  border-radius: 10px;
+}
+
+.contact-submit {
+  background-color: #a8abad;
+  color: #e9eef1;
+}
+
+/* css footer */
+.footer {
+  background-color: #a8abad;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list a {
+  display: block;
+  padding-bottom: 20px;
+  color: rgb(25, 27, 27);
+}
+.center-page {
+  background-color: #a8abad;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  text-align: center;
+}
+.center-page h4 {
+  margin-top: auto;
+  font-size: 30px;
+}
+.center-page h5 {
+  font-size: 20px;
+  font-style: italic;
+}
